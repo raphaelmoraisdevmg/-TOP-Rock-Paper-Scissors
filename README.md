@@ -94,7 +94,7 @@ By completing this project, you will practice and demonstrate:
 ## ✅ Project Requirements Checklist
 
 ### Step 1 — Initial Setup
-- [ ] Create a Git repository
+- [X] Create a Git repository
 - [ ] Create a basic HTML file with a `<script>` tag
 - [ ] Verify JavaScript linking using `console.log("Hello World")`
 - [ ] Prefer using an external JavaScript file (e.g. `script.js`)
