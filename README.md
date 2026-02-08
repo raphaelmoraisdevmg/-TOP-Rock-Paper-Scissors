@@ -124,9 +124,9 @@ By completing this project, you will practice and demonstrate:
 ---
 
 ### Step 5 — Single Round Logic
-- [ ] Create a function `playRound(humanChoice, computerChoice)`
-- [ ] Make `humanChoice` case-insensitive
-- [ ] Display the round result (e.g. `"You lose! Paper beats Rock"`)
+- [X] Create a function `playRound(humanChoice, computerChoice)`
+- [X] Make `humanChoice` case-insensitive
+- [X] Display the round result (e.g. `"You lose! Paper beats Rock"`)
 - [ ] Increment the winner’s score
 
 ---
