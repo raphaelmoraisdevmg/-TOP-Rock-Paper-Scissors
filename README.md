@@ -109,10 +109,10 @@ By completing this project, you will practice and demonstrate:
 ---
 
 ### Step 3 — Human Choice
-- [ ] Create a function `getHumanChoice()`
-- [ ] Use `prompt()` to receive user input
-- [ ] Assume valid input (no need to re-prompt)
-- [ ] Test the function using `console.log`
+- [x] Create a function `getHumanChoice()`
+- [x] Use `prompt()` to receive user input
+- [x] Assume valid input (no need to re-prompt)
+- [] Test the function using `console.log`
 
 ---
 
