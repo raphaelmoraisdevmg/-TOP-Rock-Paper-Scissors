@@ -102,9 +102,9 @@ By completing this project, you will practice and demonstrate:
 ---
 
 ### Step 2 — Computer Choice
-- [ ] Create a function `getComputerChoice()`
-- [ ] Randomly return `"rock"`, `"paper"`, or `"scissors"`
-- [ ] Test the function using `console.log`
+- [X] Create a function `getComputerChoice()`
+- [X] Randomly return `"rock"`, `"paper"`, or `"scissors"`
+- [X] Test the function using `console.log`
 
 ---
 
