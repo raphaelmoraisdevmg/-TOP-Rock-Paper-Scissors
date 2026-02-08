@@ -26,3 +26,5 @@ let number = getRandomNumber();//making sure this function will return a number 
 console.log(number);
 let choice = getComputerChoice();
 console.log(choice);
+let humanChoice = getHumanChoice();
+console.log(humanChoice);
