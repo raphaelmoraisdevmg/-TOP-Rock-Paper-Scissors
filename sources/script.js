@@ -19,7 +19,21 @@ function getComputerChoice(){
 function getHumanChoice(){
   let choice=prompt("chose our element between rock,paper,scissors? ");
   return choice.toLowerCase();
-  //as requirement sad this have tobe case insentive
+  //as requirement said this have tobe case insentive
+}
+function playRound(humanChoice,ComputerChoice){
+  if(humanChoice=="paper"&&ComputerChoice=="paper"||humanChoice=="rock"&&ComputerChoice=="rock"
+  ||humanChoice=="scissors"&&ComputerChoice=="scissors"){
+    console.log(`computer:${ComputerChoice} player:${humanChoice} tied`)
+  }
+  if(humanChoice =="paper"&&ComputerChoice=="rock"||humanChoice=="rock"&&ComputerChoice=="scissors"
+    ||humanChoice=="scissors"&&ComputerChoice=="paper"
+  ){
+    console.log(`computer:${ComputerChoice} player:${humanChoice} human wins`)
+  }else{
+    console.log(`computer:${ComputerChoice} player:${humanChoice} computer wins`)
+  }
+  
 }
 //testing section
 let number = getRandomNumber();//making sure this function will return a number between 0 and 2
@@ -28,3 +42,4 @@ let choice = getComputerChoice();
 console.log(choice);
 let humanChoice = getHumanChoice();
 console.log(humanChoice);
+playRound(humanChoice,choice);
