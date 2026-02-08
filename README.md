@@ -97,7 +97,7 @@ By completing this project, you will practice and demonstrate:
 - [X] Create a Git repository
 - [X] Create a basic HTML file with a `<script>` tag
 - [X] Verify JavaScript linking using `console.log("Hello World")`
-- [ ] Prefer using an external JavaScript file (e.g. `script.js`)
+- [X] Prefer using an external JavaScript file (e.g. `script.js`)
 
 ---
 
