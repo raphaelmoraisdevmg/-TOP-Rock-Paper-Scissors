@@ -95,8 +95,8 @@ By completing this project, you will practice and demonstrate:
 
 ### Step 1 — Initial Setup
 - [X] Create a Git repository
-- [ ] Create a basic HTML file with a `<script>` tag
-- [ ] Verify JavaScript linking using `console.log("Hello World")`
+- [X] Create a basic HTML file with a `<script>` tag
+- [X] Verify JavaScript linking using `console.log("Hello World")`
 - [ ] Prefer using an external JavaScript file (e.g. `script.js`)
 
 ---
