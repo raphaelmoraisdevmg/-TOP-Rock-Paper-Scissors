@@ -16,6 +16,12 @@ function getComputerChoice(){
     return "scissors"
   }
  }
+function getHumanChoice(){
+  let choice=prompt("chose our element between rock,paper,scissors? ");
+  return choice.toLowerCase();
+  //as requirement sad this have tobe case insentive
+}
+//testing section
 let number = getRandomNumber();//making sure this function will return a number between 0 and 2
 console.log(number);
 let choice = getComputerChoice();
