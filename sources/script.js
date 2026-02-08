@@ -1,3 +1,6 @@
+// declaring the two variables that will be used in scoreboard
+let computerScore = 0;
+let humanScore = 0;
 // this function will return a number between 0 and 2
 function getRandomNumber(){
    return Math.random(3).toFixed(0); //making sure that will be a integer number
@@ -30,8 +33,10 @@ function playRound(humanChoice,ComputerChoice){
     ||humanChoice=="scissors"&&ComputerChoice=="paper"
   ){
     console.log(`computer:${ComputerChoice} player:${humanChoice} human wins`)
+    humanScore ++;
   }else{
     console.log(`computer:${ComputerChoice} player:${humanChoice} computer wins`)
+    computerScore++;
   }
   
 }
