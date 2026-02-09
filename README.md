@@ -112,14 +112,14 @@ By completing this project, you will practice and demonstrate:
 - [x] Create a function `getHumanChoice()`
 - [x] Use `prompt()` to receive user input
 - [x] Assume valid input (no need to re-prompt)
-- [] Test the function using `console.log`
+- [x] Test the function using `console.log`
 
 ---
 
 ### Step 4 — Score Variables
-- [ ] Declare `humanScore`
-- [ ] Declare `computerScore`
-- [ ] Initialize both values to `0`
+- [x] Declare `humanScore`
+- [x] Declare `computerScore`
+- [x] Initialize both values to `0`
 
 ---
 
@@ -132,10 +132,10 @@ By completing this project, you will practice and demonstrate:
 ---
 
 ### Step 6 — Full Game (5 Rounds)
-- [ ] Create a function `playGame()`
-- [ ] Declare `playRound` and score variables inside `playGame`
-- [ ] Play exactly 5 rounds by calling `playRound`
-- [ ] Display the final winner at the end of the game
+- [x] Create a function `playGame()`
+- [x] Declare `playRound` and score variables inside `playGame`
+- [x] Play exactly 5 rounds by calling `playRound`
+- [x] Display the final winner at the end of the game
 
 ---
 
