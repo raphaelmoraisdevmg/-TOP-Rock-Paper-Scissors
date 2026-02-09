@@ -73,6 +73,11 @@ console.log(humanChoice);
 playRound(humanChoice,choice);
 
 console.log(`Final Score Board: Computer ${computerScore} vs Human ${humanScore}`)
+if(computerScore > humanScore){
+  console.log(`Computer is the final winner`)
+}else{
+  console.log(`Human is the final winner`)
+}
 }
 // //testing section
 // let number = getRandomNumber();//making sure this function will return a number between 0 and 2
