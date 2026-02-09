@@ -40,11 +40,46 @@ function playRound(humanChoice,ComputerChoice){
   }
   
 }
-//testing section
-let number = getRandomNumber();//making sure this function will return a number between 0 and 2
-console.log(number);
+function playGame(){
+  //play 1
 let choice = getComputerChoice();
 console.log(choice);
 let humanChoice = getHumanChoice();
 console.log(humanChoice);
 playRound(humanChoice,choice);
+//play 2
+choice = getComputerChoice();
+console.log(choice);
+humanChoice = getHumanChoice();
+console.log(humanChoice);
+playRound(humanChoice,choice);
+//play 3
+choice = getComputerChoice();
+console.log(choice);
+humanChoice = getHumanChoice();
+console.log(humanChoice);
+playRound(humanChoice,choice);
+//play 4
+choice = getComputerChoice();
+console.log(choice);
+humanChoice = getHumanChoice();
+console.log(humanChoice);
+playRound(humanChoice,choice);
+//play 5
+choice = getComputerChoice();
+console.log(choice);
+humanChoice = getHumanChoice();
+console.log(humanChoice);
+playRound(humanChoice,choice);
+
+console.log(`Final Score Board: Computer ${computerScore} vs Human ${humanScore}`)
+}
+// //testing section
+// let number = getRandomNumber();//making sure this function will return a number between 0 and 2
+// console.log(number);
+// let choice = getComputerChoice();
+// console.log(choice);
+// let humanChoice = getHumanChoice();
+// console.log(humanChoice);
+// playRound(humanChoice,choice);
+playGame();
